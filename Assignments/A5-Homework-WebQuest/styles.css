@@ -1,0 +1,64 @@
+/*-------------------------------------
+| Root Elements
+-------------------------------------*/
+body {
+	background-color: #d5ffee;
+	font-family: helvetica, sans-serif;
+	text-align: center;
+	margin: 0px;
+}
+
+div.wrapper {
+	background-color: #f6ffbd;
+	color: #4d524c;
+	width: 850px;
+	margin: auto;
+	border-radius: 20px;
+}
+
+header { padding:20px; background-color: #3ba698; }
+nav { padding:20px; background-color: #d5ffee; }
+main { padding:20px; background-color: white; }
+footer { padding:20px; background-color: #3ba698; }
+
+/*-------------------------------------
+| Nav
+-------------------------------------*/
+
+nav {text-align: center; }
+
+a.menulink {
+    background-color: #3ba698;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+a.menulink:hover {
+    background-color: #d5ffee;
+		color: #4d524c;
+}
+
+/*-------------------------------------
+| Main
+-------------------------------------*/
+
+main {
+    display: flex;
+}
+article {padding:20px; background-color: white; font-size: 24px}
+
+.sub {
+    font-size: 20px;
+    font-style: oblique;
+}
+
+p {
+    background-color: white;
+    padding: 10px;
+    margin: 0px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 24px;
+}
